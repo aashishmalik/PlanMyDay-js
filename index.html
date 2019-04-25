@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>ToDo List</title>
+    <script src="js/popper.js"></script>
+    <script src="js/jquery-3.3.1.slim.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/todolist_vanilajs.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/todolist.css">
+</head>
+<body>
+    <h1 class="text-center badge-danger my-4 ">TODO LIST</h1>
+    <div class="container">
+        <div class="row my-4">
+            <input id="newtask" type="text" placeholder="Enter New Task" class="row mx-2 col">
+            <button id="addbtn" class="btn btn-success col-2 mx-2">ADD</button>
+            <button id="clearbtn" class="btn bgit tn-danger col-2 mx-2">CLEAR</button>
+            <button id="sortbtn" class="btn btn-info col-2 mx-2">SORT</button>
+        </div>
+        <ul id="newlist" class="list-group">
+            <!-- <li class="list-group-item ">
+                <div class="row">
+                    <span class="col my-1 px-2">SAMPLE TASK </span>
+                    <button id="donebtn" class="btn btn-success col-2 mx-2">DONE</button>
+                    <button id="deletebtn" class="btn btn-danger col-2 mx-2">DELETE</button>
+                </div>
+            </li> -->
+        </ul>
+    </div>
+    <div class="container">
+        <div class=" row">
+            <button id="deleteallbtn" class="btn btn-danger col my-4">DELETE ALL</button>
+        </div>
+    </div>
+</body>
+</html>
